@@ -38,7 +38,7 @@ export default function LoginPage() {
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">
-            <div className="space-y-2">
+            {/* <div className="space-y-2">
               <Label htmlFor="email">Email</Label>
               <Input
                 id="email"
@@ -67,16 +67,16 @@ export default function LoginPage() {
             {error && <div className="text-red-500 text-center">{error}</div>}
             <Button type="submit" className="w-full" disabled={loading}>
               {loading ? 'Logging in...' : 'Login'}
-            </Button>
+            </Button> */}
             <Button type="button" variant="outline" className="w-full" onClick={loginWithGoogle} disabled={loading}>
               Login with Google
             </Button>
-            <div className="text-center text-sm">
+            {/* <div className="text-center text-sm">
               Don&apos;t have an account?{' '}
               <Link href="/signup" className="text-primary hover:underline">
                 Signup
               </Link>
-            </div>
+            </div> */}
           </form>
         </CardContent>
       </Card>
