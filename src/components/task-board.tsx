@@ -76,7 +76,9 @@ export function TaskBoard() {
 
       const queryString = stringify.stringify(query)
       const response = await axios.get(`/api/task?${queryString}`)
-      setTasks(response.data.docs)
+     setTasks(response.data.docs)
+    const userTasks = response.data.docs.filter((task: Task) => task.user_email === email)
+    setTasks(userTasks)
     } catch (error) {
       console.error('Error fetching tasks:', error)
     }
