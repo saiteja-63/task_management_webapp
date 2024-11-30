@@ -47,10 +47,7 @@ This is a task management web application built with Next.js and Payload CMS.
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-## License
-
-This project is licensed under the MIT License.
 
 ## Contact
 
-For any inquiries, please contact [your-email@example.com](mailto:your-email@example.com).
+For any inquiries, please contact [your-saitejakorikana@gmail.com](mailto:saitejakorikana@gmail.com).
